@@ -1,0 +1,43 @@
+{
+  "name": "Deep Researcher Agent",
+  "description": "An intelligent research assistant with local embedding capabilities",
+  "version": "1.0.0",
+  "type": "web_application",
+  "main_file": "streamlit_app.py",
+  "startup_command": "streamlit run streamlit_app.py",
+  "alternative_startup": "python run.py",
+  "requirements": "requirements.txt",
+  "port": 8501,
+  "features": [
+    "Document upload and processing",
+    "Intelligent query system",
+    "Multi-step reasoning",
+    "Report generation",
+    "Real-time statistics",
+    "General knowledge responses"
+  ],
+  "supported_formats": ["pdf", "txt", "md", "docx", "html"],
+  "educational_use_cases": [
+    "AI/ML education",
+    "Research skills training",
+    "Document analysis",
+    "Interactive learning"
+  ],
+  "dependencies": {
+    "python": ">=3.8",
+    "streamlit": ">=1.28.0",
+    "sentence-transformers": ">=2.2.2",
+    "faiss-cpu": ">=1.7.4"
+  },
+  "setup_instructions": [
+    "1. Install dependencies: pip install -r requirements.txt",
+    "2. Run the application: python run.py",
+    "3. Choose option 1 for web interface",
+    "4. Open browser to http://localhost:8501"
+  ],
+  "troubleshooting": {
+    "streamlit_not_found": "Run: pip install streamlit",
+    "import_errors": "Run: pip install -r requirements.txt",
+    "model_download": "First run downloads embedding model (~90MB)"
+  }
+}

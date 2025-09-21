@@ -1,0 +1,24 @@
+2025-09-20 23:31:40,328 - __main__ - INFO - Initializing Deep Researcher Agent...
+2025-09-20 23:31:40,330 - deep_researcher.core.embedding_generator - INFO - Loading sentence transformer model: all-MiniLM-L6-v2
+2025-09-20 23:31:40,332 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-09-20 23:31:40,333 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-20 23:31:45,926 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-09-20 23:31:59,798 - deep_researcher.core.embedding_generator - INFO - Model loaded successfully
+2025-09-20 23:31:59,799 - deep_researcher.storage.vector_store - INFO - Initialized flat index with dimension 384
+2025-09-20 23:31:59,852 - deep_researcher.storage.document_store - INFO - Database initialized successfully
+2025-09-20 23:31:59,852 - deep_researcher.deep_researcher - INFO - DeepResearcher initialized successfully
+2025-09-20 23:31:59,853 - deep_researcher.storage.vector_store - WARNING - Index files not found: vector_index
+2025-09-20 23:31:59,853 - deep_researcher.deep_researcher - WARNING - No saved state found or failed to load
+2025-09-20 23:37:48,190 - deep_researcher.storage.document_store - INFO - Query added: 1
+2025-09-20 23:38:04,788 - deep_researcher.storage.document_store - INFO - Query added: 2
+2025-09-21 08:20:30,472 - __main__ - INFO - Initializing Deep Researcher Agent...
+2025-09-21 08:20:30,476 - deep_researcher.core.embedding_generator - INFO - Loading sentence transformer model: all-MiniLM-L6-v2
+2025-09-21 08:20:30,481 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-09-21 08:20:30,481 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-21 08:20:48,689 - deep_researcher.core.embedding_generator - INFO - Model loaded successfully
+2025-09-21 08:20:48,692 - deep_researcher.storage.vector_store - INFO - Initialized flat index with dimension 384
+2025-09-21 08:20:48,705 - deep_researcher.storage.document_store - INFO - Database initialized successfully
+2025-09-21 08:20:48,706 - deep_researcher.deep_researcher - INFO - DeepResearcher initialized successfully
+2025-09-21 08:20:48,706 - deep_researcher.storage.vector_store - WARNING - Index files not found: vector_index
+2025-09-21 08:20:48,707 - deep_researcher.deep_researcher - WARNING - No saved state found or failed to load
+2025-09-21 08:21:34,786 - deep_researcher.storage.document_store - INFO - Query added: 3
